@@ -36,19 +36,19 @@ let index=res1.length-1;
 // console.log(res1[index].daeth);
 
 
-active.innerHTML=`<div class="card" style="width: 18rem;">
+active.innerHTML=`<div class="card" style="width: 18rem; margin-left:41%">
 <ul class="list-group list-group-flush">
   <li class="list-group-item">total active cases:${res1[index].Active}</li>
   </ul>
 </div>`
 
-confirmed.innerHTML=`<div class="card" style="width: 18rem;">
+confirmed.innerHTML=`<div class="card" style="width: 18rem; margin-left:41%">
 <ul class="list-group list-group-flush">
   <li class="list-group-item">confirmed:${res1[index].Confirmed}</li>
   </ul>
 </div>`
 
-death.innerHTML=`<div class="card" style="width: 18rem;">
+death.innerHTML=`<div class="card" style="width: 18rem; margin-left:41%">
 <ul class="list-group list-group-flush">
   <li class="list-group-item">deaths:${res1[index].Deaths}</li>
   </ul>
